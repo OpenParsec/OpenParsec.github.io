@@ -1,0 +1,230 @@
+------------------------------------------------------------------------------
+Parsec game function and key names.
+------------------------------------------------------------------------------
+This is the complete list for all builds up to 0190.
+------------------------------------------------------------------------------
+
+In Parsec, there are two different kinds of functions that can be mapped
+to certain keys (and joystick buttons).
+
+First, there are the game functions. Their names share the "func_" prefix.
+These are the actual game controls like steering, firing, and so on.
+There are no equivalent console commands for all of them (although for some,
+there are).
+In the console, all game functions can be listed with "listgamefunckeys".
+The keys that can be mapped to game functions share the mkc_ prefix, see
+below for a list.
+
+Second, there is the possibility to assign arbitrary console command strings
+to keys (and joystick buttons). The keys console commands can be mapped to
+share the akc_ prefix. They are a superset of the mkc_ keys. See below for
+a list.
+
+The next build will contain more powerful facilities for joystick and mouse
+button and axis mappings.
+
+
+------------------------------------------------------------------------------
+The following is a list of game functions (func_) which can be used
+to bind keys to game functions with "bind func_something mkc_something".
+
+The second (alternative) mapping, which is available on the
+PC builds (win32, linux) can be accessed with "bind func_2_something mkc_xx".
+------------------------------------------------------------------------------
+
+  func_escape
+  func_turnleft
+  func_turnright
+  func_divedown
+  func_pullup
+  func_rollleft
+  func_rollright
+  func_shootweapon
+  func_launchmissile
+  func_nextweapon
+  func_nextmissile
+  func_accelerate
+  func_decelerate
+  func_slideleft
+  func_slideright
+  func_slideup
+  func_slidedown
+  func_nexttarget
+  func_toggleframerate
+  func_toggleobjcamera
+  func_togglehelp
+  func_toggleconsole
+  func_savescreenshot
+  func_showkillstats
+  func_speedzero
+  func_targetspeed
+  func_afterburner
+  func_select
+  func_cursorleft
+  func_cursorright
+  func_cursorup
+  func_cursordown
+
+
+------------------------------------------------------------------------------
+The following is a list of mkc_ key names that can be used to bind keys to
+game functions with
+"bind func_something mkc_something" or "bind func_2_something mkc_something".
+------------------------------------------------------------------------------
+
+  mkc_a  - mkc_z
+  mkc_0  - mkc_9
+  mkc_f1 - mkc_f12
+
+  mkc_escape
+  mkc_space
+  mkc_enter
+  mkc_cursorup
+  mkc_cursordown
+  mkc_cursorleft
+  mkc_cursorright
+  mkc_backspace
+  mkc_insert
+  mkc_delete
+  mkc_home
+  mkc_end
+  mkc_pageup
+  mkc_pagedown
+  mkc_capslock
+  mkc_tilde
+
+  mkc_minus
+  mkc_equals
+  mkc_tab
+  mkc_lbracket
+  mkc_rbracket
+  mkc_semicolon
+  mkc_apostrophe
+  mkc_grave
+
+  mkc_lshift
+  mkc_rshift
+  mkc_lcontrol
+  mkc_rcontrol
+  mkc_lalt
+  mkc_ralt
+
+  mkc_comma
+  mkc_period
+  mkc_slash
+
+  mkc_backslash
+  mkc_gerarrows
+
+  mkc_numpadslash
+  mkc_numpadstar
+  mkc_numpadminus
+  mkc_numpadplus
+  mkc_numpadperiod
+  mkc_numlock
+  mkc_scroll
+
+  mkc_numpad0 - mkc_numpad9
+
+  mkc_lwin
+  mkc_rwin
+  mkc_apps
+
+  mkc_enter_gray
+  mkc_cursorup_gray
+  mkc_cursordown_gray
+  mkc_cursorleft_gray
+  mkc_cursorright_gray
+  mkc_backspace_gray
+  mkc_insert_gray
+  mkc_delete_gray
+  mkc_home_gray
+  mkc_end_gray
+  mkc_pageup_gray
+  mkc_pagedown_gray
+
+
+------------------------------------------------------------------------------
+The following is a list of akc_ key names that can be used to bind keys
+to console commands with "bind akc_something arbitrary command string".
+
+Where the same key is meant, the name after the prefix is exactly the same
+as with the mkc_ key names.
+------------------------------------------------------------------------------
+
+  akc_a           - akc_z
+  akc_a_shifted   - akc_z_shifted
+  akc_0           - akc_9
+  akc_0_shifted   - akc_9_shifted
+  akc_f1          - akc_f12
+  akc_f1_shifted  - akc_f12_shifted
+  akc_joy_button1 - akc_joy_button8
+
+  akc_escape
+  akc_space
+  akc_enter
+  akc_cursorup
+  akc_cursordown
+  akc_cursorleft
+  akc_cursorright
+  akc_backspace
+  akc_insert
+  akc_delete
+  akc_home
+  akc_end
+  akc_pageup
+  akc_pagedown
+  akc_capslock
+  akc_tilde
+
+  akc_minus
+  akc_equals
+  akc_tab
+  akc_lbracket
+  akc_rbracket
+  akc_semicolon
+  akc_apostrophe
+  akc_grave
+
+  akc_lshift
+  akc_rshift
+  akc_lcontrol
+  akc_rcontrol
+  akc_lalt
+  akc_ralt
+
+  akc_comma
+  akc_period
+  akc_slash
+
+  akc_backslash
+  akc_gerarrows
+
+  akc_numpadslash
+  akc_numpadstar
+  akc_numpadminus
+  akc_numpadplus
+  akc_numpadperiod
+  akc_numlock
+  akc_scroll
+
+  akc_numpad0 - akc_numpad9
+
+  akc_lwin
+  akc_rwin
+  akc_apps
+
+  akc_enter_gray
+  akc_cursorup_gray
+  akc_cursordown_gray
+  akc_cursorleft_gray
+  akc_cursorright_gray
+  akc_backspace_gray
+  akc_insert_gray
+  akc_delete_gray
+  akc_home_gray
+  akc_end_gray
+  akc_pageup_gray
+  akc_pagedown_gray
+
+

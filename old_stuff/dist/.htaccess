@@ -1,0 +1,7 @@
+AuthName "Parsec access distribution area"
+AuthType Basic
+AuthUserFile /etc/parsec/htpasswd
+
+<FILES ~ .>
+require user mirror parsec
+</FILES>

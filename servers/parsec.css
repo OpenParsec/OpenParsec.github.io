@@ -1,0 +1,6 @@
+BODY { color: white; background: black; font-family: arial, helvetica, geneva, sans-serif; font-size: small }
+
+A:link    	{ color: #42b4e9;  }
+A:visited 	{ color: #00b311;  }
+A:active  	{ color: #fff576;  }
+td	{font-size: small }

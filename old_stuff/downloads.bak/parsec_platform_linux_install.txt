@@ -1,0 +1,42 @@
+
+This is a release of the Linux-specific data of the Parsec LAN-Test build 0190.
+It is meant for people who have a full release for another platform, but don't
+want to download everything all over again for another platform. It does NOT
+contain everything needed to run Parsec, an additional full release is required.
+
+You have to install this release manually (create a Parsec directory wherever
+you like, and put the files there, preserving the cons/ subdirectory).
+In order to complete the installation, you have to take the *.dat files from
+a full release (pscdata0.dat, pscdata1.dat, and pscdata2.dat) and copy them
+into your Parsec directory.
+
+This should complete your installation.
+Simply start ./launcher to launch Parsec.
+
+To verify the completeness of your installation, your Parsec directory should
+contain the following files:
+
+init.con            341 bytes
+INSTALL            1644 bytes
+launcher        1015864 bytes
+parsec_x        1125344 bytes
+parsec_svga     1039440 bytes
+pscdata0.dat   60730602 bytes
+pscdata1.dat     921608 bytes
+pscdata2.dat   31547808 bytes
+README            27009 bytes
+cons/bindings.con   269 bytes
+cons/user.con       322 bytes
+
+as well as the following symbolic links:
+
+parsec       -> parsec_x
+parsec.log   -> /tmp/parsec.log
+parsecrc.con -> /tmp/parsecrc.con
+
+If you want your installation of Parsec to be accessible to multiple users,
+you can use or adapt the ./startparsec script. Install, for instance, in
+/usr/games/parsec. You can then use the script (don't forget to set the
+execute rights) to make a local version of parsecrc.con accessible to
+Parsec, and copy it back again after exiting.
+

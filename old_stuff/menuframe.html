@@ -1,0 +1,124 @@
+<html>
+
+ <head>
+  <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+  <meta name="generator" content="Adobe GoLive 4">
+  <title>menuframe</title>
+ </head>
+
+ <body bgcolor="black" text="white" leftmargin="0" marginwidth="0"> 
+  <div align="left">
+   <script language="Javascript"><!--
+   
+hilite = new MakeImgArray( 13 )
+normal = new MakeImgArray( 13 )
+
+normal[  1 ].src = "images/home.jpg"
+normal[  2 ].src = "images/about.jpg"
+normal[  3 ].src = "images/news.jpg"
+normal[  4 ].src = "images/screenshots.jpg"
+normal[  5 ].src = "images/gallery.jpg"
+normal[  6 ].src = "images/features.jpg"
+normal[  7 ].src = "images/download.jpg"
+normal[  8 ].src = "images/history.jpg"
+normal[  9 ].src = "images/faq.jpg"
+normal[ 10 ].src = "images/forum.jpg"
+normal[ 11 ].src = "images/lists.jpg"
+normal[ 12 ].src = "images/links.jpg"
+normal[ 13 ].src = "images/contact.jpg"
+
+hilite[  1 ].src = "images/home_s.jpg"
+hilite[  2 ].src = "images/about_s.jpg"
+hilite[  3 ].src = "images/news_s.jpg"
+hilite[  4 ].src = "images/screenshots_s.jpg"
+hilite[  5 ].src = "images/gallery_s.jpg"
+hilite[  6 ].src = "images/features_s.jpg"
+hilite[  7 ].src = "images/download_s.jpg"
+hilite[  8 ].src = "images/history_s.jpg"
+hilite[  9 ].src = "images/faq_s.jpg"
+hilite[ 10 ].src = "images/forum_s.jpg"
+hilite[ 11 ].src = "images/lists_s.jpg"
+hilite[ 12 ].src = "images/links_s.jpg"
+hilite[ 13 ].src = "images/contact_s.jpg"
+
+
+function MakeImgArray( n )
+{
+	this.length = n;
+	for ( var i = 1; i <= n; i++ ) {
+		this[ i ] = new Image();
+	}
+	
+	return this;
+}
+
+function msover( num )
+{
+	for ( var i = 0; i < document.images.length; i++ ) {
+		if ( document.images[ i ].src == normal[ num ].src )
+			document.images[ i ].src = hilite[ num ].src;
+	}
+}
+
+function msout( num )
+{
+	for ( var i = 0; i < document.images.length; i++ ) {
+		if ( document.images[ i ].src == hilite[ num ].src)
+			document.images[ i ].src = normal[ num ].src;
+	}
+
+}
+// -->
+   </script>
+			<table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+     <td><img height="124" width="170" src="images/menu_top.jpg"></td>
+    </tr>
+    <tr>
+     <td><a href="home.html" target="contentframe" onmouseover="msover(1)" onmouseout="msout(1)"><img height="28" width="170" src="images/home.jpg" border="0" alt="home"></a></td>
+    </tr>
+    <tr>
+     <td><a href="about.html" target="contentframe" onmouseover="msover(2)" onmouseout="msout(2)"><img height="27" width="170" src="images/about.jpg" border="0" alt="about"></a></td>
+    </tr>
+    <tr>
+     <td><a href="news.html" target="contentframe" onmouseover="msover(3)" onmouseout="msout(3)"><img height="23" width="170" src="images/news.jpg" border="0" alt="news"></a></td>
+    </tr>
+    <tr>
+     <td><a href="screenshots.html" target="contentframe" onmouseover="msover(4)" onmouseout="msout(4)"><img height="24" width="170" src="images/screenshots.jpg" border="0" alt="screenshots"></a></td>
+    </tr>
+    <tr>
+     <td><a href="gallery.html" target="contentframe" onmouseover="msover(5)" onmouseout="msout(5)"><img height="27" width="170" src="images/gallery.jpg" border="0" alt="gallery"></a></td>
+    </tr>
+    <tr>
+     <td><a href="features.html" target="contentframe" onmouseover="msover(6)" onmouseout="msout(6)"><img height="23" width="170" src="images/features.jpg" border="0" alt="features"></a></td>
+    </tr>
+    <tr>
+     <td><a href="https://sourceforge.net/projects/openparsec/files/" target="contentframe" onmouseover="msover(7)" onmouseout="msout(7)"><img height="25" width="170" src="images/download.jpg" border="0" alt="download"></a></td>
+    </tr>
+				<tr>
+					<td><a href="history.html" target="contentframe" onmouseover="msover(8)" onmouseout="msout(8)"><img height="27" width="170" src="images/history.jpg" border="0" alt="history"></a></td>
+				</tr>
+				<tr>
+					<td><a href="faq.html" target="contentframe" onmouseover="msover(9)" onmouseout="msout(9)"><img height="24" width="170" src="images/faq.jpg" border="0" alt="faq"></a></td>
+				</tr>
+				<tr>
+     <td><a href="http://sourceforge.net/projects/openparsec/forums/" target="contentframe" onmouseover="msover(10)" onmouseout="msout(10)"><img height="23" width="170" src="images/forum.jpg" border="0" alt="forum"></a></td>
+    </tr>
+    <tr>
+     <td><a href="mailinglists/lists.html" target="contentframe" onmouseover="msover(11)" onmouseout="msout(11)"><img height="26" width="170" src="images/lists.jpg" border="0" alt="lists"></a></td>
+    </tr>
+    <tr>
+     <td><a href="links.html" target="contentframe" onmouseover="msover(12)" onmouseout="msout(12)"><img height="26" width="170" src="images/links.jpg" border="0" alt="links"></a></td>
+    </tr>
+    <tr>
+     <td><a href="contact.html" target="contentframe" onmouseover="msover(13)" onmouseout="msout(13)"><img height="26" width="170" src="images/contact.jpg" border="0" alt="contact"></a></td>
+    </tr>
+    <tr>
+     <td><img height="26" width="170" src="images/menu_bottom.jpg"></td>
+    </tr>
+   </table>
+		</div>
+	<div id="logo"><a href="http://sourceforge.net/projects/openparsec" target="_top"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=77590&amp;type=11" width="120" height="30" alt="Get Parsec at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a></div>
+ </body>
+
+</html>

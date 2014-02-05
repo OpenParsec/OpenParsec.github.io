@@ -1,0 +1,7 @@
+#btn_Close {
+	background:url("/icons/close_16.png") no-repeat; 
+	color:rgba(0,0,0,0) !important;
+	width: 16px;
+	height: 16px;
+}
+

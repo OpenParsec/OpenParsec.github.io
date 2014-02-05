@@ -1,0 +1,25 @@
+.index_col {
+	float: left;
+	clear: none;
+	width: 20em;
+	height: 1em;
+}
+.index_header {
+	font-weight: bold;
+	float: left;
+	clear: none;
+	width: 20em;
+	height: 1em;
+}
+.index_row1 { 
+	clear: both;
+	margin: 1px 10px 1px 10px;
+        background: #cdcdcd;
+}
+
+.index_row2 { 
+	clear: both;
+        margin: 1px 10px 1px 10px;
+	background: #8d8d8d;
+}
+

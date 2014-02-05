@@ -1,0 +1,258 @@
+
+<HTML>
+<HEAD>
+<TITLE>parsec-test Administration (General Options)</TITLE>
+</HEAD>
+<BODY
+<BODY bgcolor="#ffffff">
+<center><h2>parsec-test mailing list administration<br>General Options Section</h2></center><hr>
+<table>
+  <tr>
+    <td><center><strong>Configuration Categories</strong></center></td>
+    <td><center><strong>Other Administrative Activities</strong></center></td>
+  </tr>
+  <tr VALIGN="top">
+    <td>
+        <ul>
+        <li><em>General Options</em>
+        <li><a href="http://www.parsec.org/mailman/admin/parsec-test/members">Membership Management</a>
+        <li><a href="http://www.parsec.org/mailman/admin/parsec-test/privacy">Privacy Options</a>
+        <li><a href="http://www.parsec.org/mailman/admin/parsec-test/nondigest">Regular-member (non-digest) Options</a>
+        <li><a href="http://www.parsec.org/mailman/admin/parsec-test/digest">Digest-member Options</a>
+        <li><a href="http://www.parsec.org/mailman/admin/parsec-test/bounce">Bounce Options</a>
+        <li><a href="http://www.parsec.org/mailman/admin/parsec-test/archive">Archival Options</a>
+        <li><a href="http://www.parsec.org/mailman/admin/parsec-test/gateway">Mail-News and News-Mail gateways</a>
+        <li><a href="http://www.parsec.org/mailman/admin/parsec-test/autoreply">Auto-responder</a>
+        </ul>
+</td>
+    <td>
+        <ul>
+        <li><a href="http://www.parsec.org/mailman/admindb/parsec-test">Tend to pending administrative requests.</a>
+        <li><a href="http://www.parsec.org/mailman/listinfo/parsec-test">Go to the general list information page.</a>
+        <li><a href="http://www.parsec.org/mailman/edithtml/parsec-test">Edit the HTML for the public list pages.</a>
+        <li><a href="http://www.parsec.org/mailman/admin/parsec-test/logout"><FONT SIZE="+1">Logout</FONT></a>
+        </ul>
+</td>
+  </tr>
+</table>
+<hr>
+<FORM action="http://www.parsec.org/mailman/admin/parsec-test" method="POST" >
+Make your changes below, and then submit them using the button at the bottom.  (You can change your password there, too.)<p>
+  <table CELLPADDING="4" CELLSPACING="3">
+    <tr>
+      <td COLSPAN="2" BGCOLOR="#99ccff"><center><h2>General Options</h2></center></td>
+    </tr>
+    <tr>
+      <td COLSPAN="2">Fundamental list characteristics, including descriptive info and basic behaviors.</td>
+    </tr>
+    <tr>
+      <td><center><strong>Description</strong></center></td>
+      <td><center><strong>Value</strong></center></td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">The public name of this list (make case-changes only). <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/real_name">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc"><INPUT name="real_name" type="TEXT" value="parsec-test" size="40" ></td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">The list admin's email address - having multiple admins/addresses (on separate lines) is ok. <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/owner">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc"><TEXTAREA NAME=owner ROWS=3 COLS=40 WRAP=off>sid@parsec.org</TEXTAREA></td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">A terse phrase identifying this list. <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/description">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc"><INPUT name="description" type="TEXT" value="The mailman testbed" size="40" ></td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right"> An introductory description - a few paragraphs - about the list.  It will be included, as html, at the top of the listinfo page.  Carriage returns will end a paragraph - see the details for more info. <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/info">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc"><TEXTAREA NAME=info ROWS=7 COLS=40 WRAP=soft>This list is intended to serve as a testing field for the mailman listmanager tool. If it turns out to be successful, the parsec mailing lists will be run off this tool!</TEXTAREA></td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">Prefix for subject line of list postings. <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/subject_prefix">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc"><INPUT name="subject_prefix" type="TEXT" value="[parsec-test] " size="40" ></td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">List-specific text prepended to new-subscriber welcome message <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/welcome_msg">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc"><TEXTAREA NAME=welcome_msg ROWS=4 COLS=40 WRAP=soft>Enjoy the parsec-test mailing list!!</TEXTAREA></td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">Text sent to people leaving the list.  If empty, no special text will be added to the unsubscribe message. <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/goodbye_msg">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc"><TEXTAREA NAME=goodbye_msg ROWS=4 COLS=40 WRAP=soft></TEXTAREA></td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">Where are replies to list messages directed?  <tt>Poster</tt>
+is <em>strongly</em> recommended for most mailing lists. <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/reply_goes_to_list">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc">
+          <table CELLSPACING="5">
+            <tr>
+              <td><INPUT name="reply_goes_to_list" type="RADIO" value="0" CHECKED ></td>
+              <td>Poster</td>
+              <td><INPUT name="reply_goes_to_list" type="RADIO" value="1" ></td>
+              <td>This list</td>
+              <td><INPUT name="reply_goes_to_list" type="RADIO" value="2" ></td>
+              <td>Explicit address</td>
+            </tr>
+          </table>
+</td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">Explicit <tt>Reply-To:</tt> header. <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/reply_to_address">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc"><INPUT name="reply_to_address" type="TEXT" value="" size="40" ></td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">(Administrivia filter) Check postings and intercept ones that seem to be administrative requests? <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/administrivia">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc">
+          <table CELLSPACING="5">
+            <tr>
+              <td><INPUT name="administrivia" type="RADIO" value="0" ></td>
+              <td>No</td>
+              <td><INPUT name="administrivia" type="RADIO" value="1" CHECKED ></td>
+              <td>Yes</td>
+            </tr>
+          </table>
+</td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">Send password reminders to, eg, "-owner" address instead of directly to user. <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/umbrella_list">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc">
+          <table CELLSPACING="5">
+            <tr>
+              <td><INPUT name="umbrella_list" type="RADIO" value="0" CHECKED ></td>
+              <td>No</td>
+              <td><INPUT name="umbrella_list" type="RADIO" value="1" ></td>
+              <td>Yes</td>
+            </tr>
+          </table>
+</td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">Suffix for use when this list is an umbrella for other lists, according to setting of previous "umbrella_list" setting. <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/umbrella_member_suffix">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc"><INPUT name="umbrella_member_suffix" type="TEXT" value="-owner" size="40" ></td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">Send monthly password reminders or no? Overrides the previous option. <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/send_reminders">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc">
+          <table CELLSPACING="5">
+            <tr>
+              <td><INPUT name="send_reminders" type="RADIO" value="0" ></td>
+              <td>No</td>
+              <td><INPUT name="send_reminders" type="RADIO" value="1" CHECKED ></td>
+              <td>Yes</td>
+            </tr>
+          </table>
+</td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">Send welcome message when people subscribe? <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/send_welcome_msg">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc">
+          <table CELLSPACING="5">
+            <tr>
+              <td><INPUT name="send_welcome_msg" type="RADIO" value="0" ></td>
+              <td>No</td>
+              <td><INPUT name="send_welcome_msg" type="RADIO" value="1" CHECKED ></td>
+              <td>Yes</td>
+            </tr>
+          </table>
+</td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">Should administrator get immediate notice of new requests, as well as daily notices about collected ones? <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/admin_immed_notify">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc">
+          <table CELLSPACING="5">
+            <tr>
+              <td><INPUT name="admin_immed_notify" type="RADIO" value="0" ></td>
+              <td>No</td>
+              <td><INPUT name="admin_immed_notify" type="RADIO" value="1" CHECKED ></td>
+              <td>Yes</td>
+            </tr>
+          </table>
+</td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">Should administrator get notices of subscribes/unsubscribes? <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/admin_notify_mchanges">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc">
+          <table CELLSPACING="5">
+            <tr>
+              <td><INPUT name="admin_notify_mchanges" type="RADIO" value="0" ></td>
+              <td>No</td>
+              <td><INPUT name="admin_notify_mchanges" type="RADIO" value="1" CHECKED ></td>
+              <td>Yes</td>
+            </tr>
+          </table>
+</td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">Send mail to poster when their posting is held for approval? <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/dont_respond_to_post_requests">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc">
+          <table CELLSPACING="5">
+            <tr>
+              <td><INPUT name="dont_respond_to_post_requests" type="RADIO" value="0" CHECKED ></td>
+              <td>Yes</td>
+              <td><INPUT name="dont_respond_to_post_requests" type="RADIO" value="1" ></td>
+              <td>No</td>
+            </tr>
+          </table>
+</td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">Maximum length in Kb of a message body.  Use 0 for no limit. <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/max_message_size">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc"><INPUT name="max_message_size" type="TEXT" value="100" size="7" ></td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">Host name this list prefers. <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/host_name">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc"><INPUT name="host_name" type="TEXT" value="parsec.org" size="40" ></td>
+    </tr>
+    <tr>
+      <td BGCOLOR="#cccccc"><div ALIGN="right">Base URL for Mailman web interface <a href="http://www.parsec.org/mailman/admin/parsec-test/?VARHELP=general/web_page_url">(Details)</a></div></td>
+      <td BGCOLOR="#cccccc"><INPUT name="web_page_url" type="TEXT" value="http://www.parsec.org/mailman/" size="40" ></td>
+    </tr>
+    <tr>
+      <td COLSPAN="2"><br></td>
+    </tr>
+  </table>
+<center>
+  <table BORDER="0" CELLSPACING="0" BGCOLOR="#99cccc" CELLPADDING="2">
+    <tr>
+      <td ALIGN="left" COLSPAN="2"><strong><center>To Change The Administrator Password</center></strong></td>
+    </tr>
+    <tr>
+      <td VALIGN="top" ALIGN="left">
+          <table BORDER="1" CELLSPACING="0" BGCOLOR="#99cccc" CELLPADDING="2">
+            <tr>
+              <td><div ALIGN="right"> Enter current password:</div></td>
+              <td><INPUT name="adminpw" type="PASSWORD" value="" ></td>
+            </tr>
+          </table>
+</td>
+      <td>
+          <table BORDER="1" CELLSPACING="0" BGCOLOR="#99cccc" CELLPADDING="2">
+            <tr>
+              <td><div ALIGN="right"> Enter new password: </div></td>
+              <td><INPUT name="newpw" type="PASSWORD" value="" ></td>
+            </tr>
+            <tr>
+              <td><div ALIGN="right">Confirm new password:</div></td>
+              <td><INPUT name="confirmpw" type="PASSWORD" value="" ></td>
+            </tr>
+          </table>
+</td>
+    </tr>
+  </table>
+</center><p><center>
+  <table BORDER="0" CELLSPACING="0" BGCOLOR="#99ccff" CELLPADDING="2">
+    <tr>
+      <td ALIGN="middle"><strong><INPUT name="submit" type="SUBMIT" value="Submit Your Changes" ></strong></td>
+    </tr>
+  </table>
+</center><hr><address><a href="http://www.parsec.org/mailman/listinfo/parsec-test">parsec-test</a> list run by <a href="mailto:sid@parsec.org">sid@parsec.org</a><p>
+<table WIDTH="100%" BORDER="0">
+  <tr>
+    <td><a href="http://www.gnu.org/software/mailman/mailman.html"><img src="/mailman_images/mailman.jpg" alt="Delivered by Mailman" border=0><br>version 2.0beta5</a></td>
+    <td><a href="http://www.python.org/"><img src="/mailman_images/PythonPowered.png" alt="Python Powered" border=0></a></td>
+    <td><a href="http://www.gnu.org/"><img src="/mailman_images/gnu-head-tiny.jpg" alt="GNU's Not Unix" border=0></a></td>
+    <td><a href="http://www.gnu.org/software/mailman/mailman.html">Mailman home page</a><br><a href="http://www.python.org/">Python home page</a><br><a href="http://www.gnu.org/">GNU home page</a></td>
+  </tr>
+</table>
+</address>
+</FORM>
+
+</BODY>
+</HTML>

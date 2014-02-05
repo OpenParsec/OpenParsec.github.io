@@ -1,0 +1,75 @@
+div {
+	clear: both;
+}
+div.leftMenu {
+    float: left;
+    display: block;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+    height: 768px;
+	clear: none;
+}
+#LB_Overlay {
+	background-image: url(/images/ovly.png);
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/image/ovly.png",sizingMethod="scale");
+}
+#LtBox {
+	width: auto;
+	top: 175px;
+	left: 30%;
+	background: #c8c8c8;
+	padding: 10px;
+	margin: 2px;
+
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	color: #000;
+	z-index: 9999;
+	position: absolute;
+}
+#LtBox #btn_Close {
+	position: absolute;
+	top: -1px;
+	color: #000;
+	right: -1px;
+	cursor: pointer;
+	font-weight: bold;
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+a.leftNavLink, a.leftNavLinkActive {
+	display: block;
+	}
+
+label {
+	float: left;
+}
+
+input, textarea, select, div.frm_value {
+	float: right;
+	margin: 5px 5px 5px 5px;
+}
+
+input.formButton {
+	float: none;
+}
+
+table {
+	width: 100%;
+}
+
+th,tr,td,table {
+	border: 1px solid black;
+}

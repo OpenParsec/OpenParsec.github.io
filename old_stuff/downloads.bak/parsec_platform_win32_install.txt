@@ -1,0 +1,30 @@
+
+This is a release of the Win32-specific data of the Parsec LAN-Test build 0190.
+It is meant for people who have a full release for another platform, but don't
+want to download everything all over again for another platform. It does NOT
+contain everything needed to run Parsec, an additional full release is required.
+
+You have to install this release manually (create a Parsec folder wherever
+you like, and put the files there, preserving the cons subfolder).
+In order to complete the installation, you have to take the *.dat files from
+a full release (pscdata0.dat, pscdata1.dat, and pscdata2.dat) and copy them
+into your Parsec folder.
+
+This should complete your installation.
+Simply start launcher.exe to launch Parsec.
+
+To verify the completeness of your installation, your Parsec folder should
+contain the following files:
+
+init.con            309 bytes
+install.txt        1191 bytes
+launcher.exe    1593344 bytes
+parsec.exe       802816 bytes
+pscdata0.dat   60730602 bytes
+pscdata1.dat     921608 bytes
+pscdata2.dat   31547808 bytes
+qmdx.dll         183808 bytes
+readme.txt        27694 bytes
+cons\bindings.con   283 bytes
+cons\user.con       326 bytes
+
