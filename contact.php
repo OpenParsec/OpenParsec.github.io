@@ -6,7 +6,7 @@
   </center>
   <p><font face="Helvetica,Arial" size="2">If you want to get in touch with us, provide us with encouragement, contribute ideas, tell us your opinion about this web-page, or just tell us anything else you think might be of interest to us, please feel free to contact us via any of these means:
 <ul>
-	<li><a href="/lists.html">Mailing Lists</a></li>
+	<li><a href="/lists.php">Mailing Lists</a></li>
 	<li><a href="https://github.com/OpenParsec/openparsec/wiki">The OpenParsec Wiki</a></li>
 	<li>Or IRC on irc.slashnet.org chanel: #openparsec</li>
 </ul>

@@ -17,11 +17,11 @@
       <tr>
         <td>
           <div align="left">
-            <img height="70" width="523" src="http://openparsec.com/images/dogma.jpg" alt="THERE IS NO SAFE DISTANCE"></div>
+            <img height="70" width="523" src="/images/dogma.jpg" alt="THERE IS NO SAFE DISTANCE"></div>
         </td>
         <td width="169">
           <div align="right">
-            <a href="http://www.openparsec.com/"><img height="83" width="240" src="http://openparsec.com/images/logo_anim.gif" alt="parsec logo" border="0"></a></div>
+            <a href="https://www.openparsec.com/"><img height="83" width="240" src="/images/logo_anim.gif" alt="parsec logo" border="0"></a></div>
         </td>
       </tr>
     </table>
@@ -93,10 +93,10 @@ function msout( num )
      <td class="parsecMenu"><img height="124" width="170" src="/images/menu_top.jpg"></td>
     </tr>
     <tr class="parsecMenu">
-     <td class="parsecMenu"><a href="http://www.openparsec.com/" onmouseover="msover(1)" onmouseout="msout(1)"><img height="28" width="170" src="/images/home.jpg" border="0" alt="home"></a></td>
+     <td class="parsecMenu"><a href="/" onmouseover="msover(1)" onmouseout="msout(1)"><img height="28" width="170" src="/images/home.jpg" border="0" alt="home"></a></td>
     </tr>
     <tr class="parsecMenu">
-     <td class="parsecMenu"><a href="http://www.openparsec.com/about.php" onmouseover="msover(2)" onmouseout="msout(2)"><img height="27" width="170" src="/images/about.jpg" border="0" alt="about"></a></td>
+     <td class="parsecMenu"><a href="/about.php" onmouseover="msover(2)" onmouseout="msout(2)"><img height="27" width="170" src="/images/about.jpg" border="0" alt="about"></a></td>
     </tr>
 <!--    <tr class="parsecMenu">
      <td class="parsecMenu"><a href="http://www.openparsec.com/news.php" onmouseover="msover(3)" onmouseout="msout(3)"><img height="23" width="170" src="/images/news.jpg" border="0" alt="news"></a></td>
@@ -114,27 +114,27 @@ function msout( num )
      <td class="parsecMenu"><a href="https://sourceforge.net/projects/openparsec/files/" onmouseover="msover(7)" onmouseout="msout(7)"><img height="25" width="170" src="/images/download.jpg" border="0" alt="download"></a></td>
     </tr>
     <tr class="parsecMenu">
-	<td class="parsecMenu"><a href="http://www.openparsec.com/history.php" onmouseover="msover(8)" onmouseout="msout(8)"><img height="27" width="170" src="/images/history.jpg" border="0" alt="history"></a></td>
+	<td class="parsecMenu"><a href="/history.php" onmouseover="msover(8)" onmouseout="msout(8)"><img height="27" width="170" src="/images/history.jpg" border="0" alt="history"></a></td>
     </tr>
     <tr class="parsecMenu">
-	<td class="parsecMenu"><a href="http://www.openparsec.com/faq.php" onmouseover="msover(9)" onmouseout="msout(9)"><img height="24" width="170" src="/images/faq.jpg" border="0" alt="faq"></a></td>
+	<td class="parsecMenu"><a href="/faq.php" onmouseover="msover(9)" onmouseout="msout(9)"><img height="24" width="170" src="/images/faq.jpg" border="0" alt="faq"></a></td>
     </tr>
     <!--<tr class="parsecMenu">
      <td class="parsecMenu"><a href="http://sourceforge.net/projects/openparsec/forums/" onmouseover="msover(10)" onmouseout="msout(10)"><img height="23" width="170" src="/images/forum.jpg" border="0" alt="forum"></a></td>
     </tr>-->
     <tr class="parsecMenu">
-     <td class="parsecMenu"><a href="http://www.openparsec.com/lists.php" onmouseover="msover(11)" onmouseout="msout(11)"><img height="26" width="170" src="/images/lists.jpg" border="0" alt="lists"></a></td>
+     <td class="parsecMenu"><a href="/lists.php" onmouseover="msover(11)" onmouseout="msout(11)"><img height="26" width="170" src="/images/lists.jpg" border="0" alt="lists"></a></td>
     </tr>
     <!--<tr class="parsecMenu">
      <td class="parsecMenu"><a href="http://www.openparsec.com/links.html" onmouseover="msover(12)" onmouseout="msout(12)"><img height="26" width="170" src="/images/links.jpg" border="0" alt="links"></a></td>
     </tr>-->
     <tr class="parsecMenu">
-     <td class="parsecMenu"><a href="http://www.openparsec.com/contact.php" onmouseover="msover(13)" onmouseout="msout(13)"><img height="26" width="170" src="/images/contact.jpg" border="0" alt="contact"></a></td>
+     <td class="parsecMenu"><a href="/contact.php" onmouseover="msover(13)" onmouseout="msout(13)"><img height="26" width="170" src="/images/contact.jpg" border="0" alt="contact"></a></td>
     </tr>
     <tr class="parsecMenu">
      <td class="parsecMenu"><img height="26" width="170" src="/images/menu_bottom.jpg"></td>
     </tr>
    </table>
-	<div id="logo"><a href="http://sourceforge.net/projects/openparsec" target="_top"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=77590&amp;type=11" width="120" height="30" alt="Get Parsec at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a></div>
+	<div id="logo"><a href="http://sourceforge.net/projects/openparsec" target="_top"><img src="https://sflogo.sourceforge.net/sflogo.php?group_id=77590&amp;type=11" width="120" height="30" alt="Get Parsec at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a></div>
 		</div>
 	<div class="mainContent">
